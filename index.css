@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background-color: #282c34;
+    font-family: sans-serif;
+    color: #abb2bf;
+}
+#map {
+    width: 100%;
+    height: 75vh;
+}
+#code {
+    margin: 0px;
+}
+pre {
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 10px; 
+    /* font-size: 1.2vw; */
+}
+.top {
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #abb2bf;
+}
+.title {
+    margin: 0px;
+}
+.sub {
+    margin: 0px;
+    color: #828791;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px; 
+
+    font-size: 12px;
+    color: #abb2bf;
+}
+a {
+    text-decoration: underline;
+    color: #abb2bf;
+}

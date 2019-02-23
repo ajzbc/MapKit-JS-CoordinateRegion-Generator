@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MapKit JS CoordinateRegion Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+    <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+
+    <link rel="stylesheet" href="styles/atom-one-dark.css">
+    <script src="highlight.pack.js"></script>
+
+</head>
+<body>
+    <div id="map"></div>
+    <div id="code">
+
+        <div class="top">
+            <p class="title"><b>MapKit JS CoordinateRegion Generator</b></p>
+            <p class="sub">Drag and zoom the map to generate a region</p>
+        </div>
+
+<pre><code class="javascript">var generatedRegion = new mapkit.CoordinateRegion(
+new mapkit.Coordinate(<span id="latC">0</span>, <span id="lonC">0</span>),
+new mapkit.CoordinateSpan(<span id="latS">0</span>, <span id="lonS">0</span>)
+);</code>
+</pre>
+
+        <p class="footer">Created by 
+            <a href="https://ajzbc.com">Andrew Jazbec</a>&nbsp;&nbsp;
+            <a href="https://github.com/ajzbc/MapKit-JS-CoordinateRegion-Generator">GitHub</a>&nbsp;&nbsp;
+            <a href="https://developer.apple.com/maps/mapkitjs/">MapKit JS</a>
+        </p>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
