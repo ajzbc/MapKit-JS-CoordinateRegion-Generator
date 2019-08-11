@@ -1,12 +1,12 @@
 mapkit.init({
     authorizationCallback: function(done) {
-        done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik43RkZHNVozMjgifQ.eyJpc3MiOiJHWjg0NVlRUDZFIiwiaWF0IjoxNTUwOTUyODA3LCJleHAiOjE1NTM2MzEyMDd9.2VxmOm72n-4pMUidzu8qPCPcpf00m2MH1CsB5zxtq3FzP88U8jhyDm3Zsx_VBYPX3gRkbGvb6JH60NM2s7VDUA');
+        done('eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlhYTjJQNTk5UFAifQ.eyJpc3MiOiJHWjg0NVlRUDZFIiwiaWF0IjoxNTY1NDk0ODY0LCJleHAiOjE1Nzc3NTA0MDB9.fHKPaPzP_kLSbacVzd4LLuJHR4_yFJ1ry0GrYP3KA9eKSLkwU9IroXcVQ_9G0oHuhWJQJqteIVS3-yhTXxKZ4w');
     }
 });
 
 var Cupertino = new mapkit.CoordinateRegion(
-new mapkit.Coordinate(37.3316850890998, -122.030067374026),
-new mapkit.CoordinateSpan(0.167647972, 0.354985255)
+    new mapkit.Coordinate(37.3316850890998, -122.030067374026),
+    new mapkit.CoordinateSpan(0.167647972, 0.354985255)
 );
 
 var map = new mapkit.Map("map");
